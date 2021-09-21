@@ -11,3 +11,34 @@
 	position: absolute;
 	transform: rotate(45deg);
 }
+.alien{
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	top: 47%;
+	left: 0%;
+	animation: alien 15s infinite linear;
+}
+.rocket{
+	position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 100%;
+    bottom: 10%;
+    animation: rocket 20s 1s;
+}
+.astronaut{
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	top: 30%;
+	right: 0%;
+	animation: astronaut 15s infinite linear;
+}
+.astronaut1{
+	position: absolute;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    animation: astronaut1 50s infinite;
+}
