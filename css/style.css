@@ -6,11 +6,27 @@
 .cosmos{
 	width: 100%;
 }
-.astronaut{
+/*.astronaut{
 	width: 30px;
 	position: absolute;
 	transform: rotate(45deg);
+}*/
+.astronaut{
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	top: 30%;
+	right: 0%;
+	animation: astronaut 15s infinite linear;
 }
+.astronaut1{
+	position: absolute;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    animation: astronaut1 50s infinite;
+}
+
 .alien{
 	width: 300px;
 	height: 150px;
@@ -26,19 +42,4 @@
     right: 100%;
     bottom: 10%;
     animation: rocket 20s 1s;
-}
-.astronaut{
-	width: 300px;
-	height: 150px;
-	position: absolute;
-	top: 30%;
-	right: 0%;
-	animation: astronaut 15s infinite linear;
-}
-.astronaut1{
-	position: absolute;
-    left: 50%;
-    width: 150px;
-    height: 150px;
-    animation: astronaut1 50s infinite;
 }
