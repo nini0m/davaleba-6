@@ -1,0 +1,8 @@
+@keyframes astronaut{
+	0% {transform: rotate(45deg);}
+	20% {transform: rotate(90deg);}
+	40% {transform: rotate(180deg);}
+	60% {transform: rotate(240deg);}
+	80% {transform: rotate(360deg);}
+	100% {transform: rotate(45deg);}
+}
